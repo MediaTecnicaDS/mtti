@@ -333,12 +333,6 @@
       scrollFunction()
     };
 
-      <script>
-    window.addEventListener('load', () => {
-      document.getElementById('modal').showModal();
-    });
-  </script>
-
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("movetop").style.display = "block";
@@ -507,6 +501,12 @@
   <!--//MENU-JS-->
 
   <script src="assets/js/bootstrap.min.js"></script>
+
+        <script>
+    window.addEventListener('load', () => {
+      document.getElementById('modal').showModal();
+    });
+  </script>
 
 </body>
 </html>
